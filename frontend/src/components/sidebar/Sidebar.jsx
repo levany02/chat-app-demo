@@ -1,5 +1,5 @@
 import React from 'react'
-import SearchInput from './Searchinput'
+import SearchInput from './SearchInput'
 import Conversations from './Conversations'
 import LoggedoutButton from './LoggedoutButton'
 
