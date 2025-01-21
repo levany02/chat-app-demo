@@ -1,5 +1,4 @@
 import React from 'react'
-import SearchInput from '../../components/sidebar/Searchinput'
 import Sidebar from '../../components/sidebar/SideBar'
 import MessageContainer from '../../components/messages/MessageContainer'
 
