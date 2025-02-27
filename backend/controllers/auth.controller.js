@@ -10,7 +10,7 @@ export const signup = async (req, res) => {
             return res.status(400).json({error: "Password don't match"})
         };
 
-        const user = await User.findOne({username});
+        const user = await User.find({username});
         if(user){
             return res.status(400).json({error:"Username already existed."})
         }
